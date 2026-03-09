@@ -1,0 +1,17 @@
+[
+    {
+        "id": "english",
+        "file": "english.json",
+        "code": "en"
+    },
+    {
+        "id": "kazakh",
+        "file": "kazakh.json",
+        "code": "kk"
+    },
+    {
+        "id": "russian",
+        "file": "russian.json",
+        "code": "ru"
+    }
+]

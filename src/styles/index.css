@@ -1,0 +1,79 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+body {
+  background-color: #1c2027;
+}
+
+@keyframes stat-flash-better {
+  0% {
+    color: white;
+  }
+
+  30% {
+    color: #3aff4a;
+    text-shadow: 0 0 12px #3aff4a88;
+  }
+
+  70% {
+    color: #3aff4a;
+    text-shadow: 0 0 12px #3aff4a88;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+@keyframes stat-flash-worse {
+  0% {
+    color: white;
+  }
+
+  30% {
+    color: #ff3a3d;
+    text-shadow: 0 0 12px #ff3a3d88;
+  }
+
+  70% {
+    color: #ff3a3d;
+    text-shadow: 0 0 12px #ff3a3d88;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+@keyframes stat-flash-same {
+  0% {
+    color: white;
+  }
+
+  30% {
+    color: #d9d9d9;
+    text-shadow: 0 0 12px #d9d9d988;
+  }
+
+  70% {
+    color: #d9d9d9;
+    text-shadow: 0 0 12px #d9d9d988;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.stat-flash-better {
+  animation: stat-flash-better 0.8s ease-in-out forwards;
+}
+
+.stat-flash-worse {
+  animation: stat-flash-worse 0.8s ease-in-out forwards;
+}
+
+.stat-flash-same {
+  animation: stat-flash-same 0.8s ease-in-out forwards;
+}
