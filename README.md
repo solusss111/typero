@@ -1,4 +1,4 @@
-# ⌨️ React Typing Test
+# ⌨️ typero
 
 A modern **typing speed test** built with **React + TypeScript**.
 Test your typing speed, accuracy, and track your performance in real time.
@@ -12,7 +12,7 @@ Test your typing speed, accuracy, and track your performance in real time.
 * ❌ Correct / Incorrect characters counter
 * ⏱ Live typing timer
 * 🔄 Reset test anytime
-* 🎨 Clean UI inspired by Monkeytype
+* 🎨 Clean UI inspired by [typetest.io](https://typetest.io/)
 
 ---
 
